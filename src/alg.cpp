@@ -1,10 +1,10 @@
 // Copyright 2021 NNTU-CS
 int gcd(int a, int b) {
-    int i;
+    int c;
     while (!(a % b) == 0) {
-        i = a;
+        c = a;
         a = b;
-        b = i % b;
+        b = c % b;
 }
     return b;
 }
